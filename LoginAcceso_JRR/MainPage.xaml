@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:alias="clr-namespace:BibliotecaClases;assembly=BibliotecaClases"
+             x:Class="LoginAcceso_JRR.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <alias:EntryUser x:Name="entryUser" VerticalOptions="Center" HorizontalOptions="Center" Padding="20"/>
+        <alias:EntryContrasenia x:Name="entryContrasenia" VerticalOptions="Center" HorizontalOptions="Center" Padding="20"/>
+        <Button Text="Login" VerticalOptions="Center" HorizontalOptions="Center" Clicked="OnLoginClicked" Padding="15"/>
+    </StackLayout>
+</ContentPage>
